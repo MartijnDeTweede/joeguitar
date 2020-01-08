@@ -1,0 +1,25 @@
+.textMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.mediaItem {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .textMedia {
+    margin: 50px 0;
+  }
+  
+  .textItem {
+    margin: 0 20px;
+  }
+
+  .mediaItem {
+    display: block;
+    margin: 0 20px; 
+  }
+}

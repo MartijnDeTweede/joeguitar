@@ -1,0 +1,26 @@
+.textItem {
+  text-align: justify;
+}
+
+.textItem__text {
+  display: block;
+  color: #3c4044;
+  max-width: 90vw;
+}
+
+.textItem__title {
+  display: block;
+  color: #3c4044;
+  font-weight: 700;
+  font-size: calc(10px + 2vmin);
+}
+
+@media screen and (min-width: 768px) {
+  .textItem__text {
+    max-width: 30vw;
+  }
+  
+  .textItem__title {
+    font-size: calc(10px + 2vmin);
+  }
+}
