@@ -8,11 +8,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
 .App-header {
   background-color: #3c4044;
   min-height: 10vh;
@@ -23,6 +19,8 @@
   flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
+  transition: 3s ease-in;
+  animation: Header-fade-in 1 0.5s linear;
 }
 
 .App-link {
@@ -40,12 +38,11 @@
   color:#9392ee;
 }
 
-
-@keyframes App-logo-spin {
+@keyframes Header-fade-in {
   from {
-    transform: rotate(0deg);
+    transform: translateY(-10vh);
   }
   to {
-    transform: rotate(360deg);
+    transform: translateY(0);
   }
 }

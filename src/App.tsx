@@ -14,10 +14,10 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Router>
-      <header className="App-header">
-        <Link className="App-link" to="/">Home</Link>
-        <Link  className="App-link" to="/faq">FAQ</Link>
-      </header>
+        <header className="App-header">
+          <Link className="App-link" to="/">Home</Link>
+          <Link  className="App-link" to="/faq">FAQ</Link>
+        </header>
       <Switch>
           <Route path="/faq">
             <FAQContainer />
