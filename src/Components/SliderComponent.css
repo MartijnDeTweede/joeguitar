@@ -15,7 +15,13 @@
   color: #3c4044 !important; 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+  .sliderComponent {
+    padding: 20px 50px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
   .sliderComponent {
     padding: 20px 300px;
   }

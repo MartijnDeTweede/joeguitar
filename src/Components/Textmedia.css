@@ -23,3 +23,18 @@
     margin: 0 20px; 
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .textMedia {
+    margin: 50px 0;
+  }
+  
+  .textItem {
+    margin: 0 100px;
+  }
+
+  .mediaItem {
+    display: block;
+    margin: 0 20px; 
+  }
+}
