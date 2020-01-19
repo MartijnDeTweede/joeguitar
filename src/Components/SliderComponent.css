@@ -1,5 +1,5 @@
 .sliderComponent {
-  padding: 20px 300px;
+  padding: 30px;
 }
 
 .sliderComponent__title {
@@ -13,4 +13,10 @@
 
 .slick-prev:before, .slick-next:before  {
   color: #3c4044 !important; 
+}
+
+@media screen and (min-width: 1024px) {
+  .sliderComponent {
+    padding: 20px 300px;
+  }
 }

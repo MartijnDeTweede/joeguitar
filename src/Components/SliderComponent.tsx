@@ -39,6 +39,32 @@ export const SliderComponent: React.FC<{
     infinite
     nextArrow={<SampleNextArrow />}
     prevArrow={<SamplePrevArrow />}
+    responsive={[
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          dots: false
+        }
+      }
+    ]}
+
     >
       {
         slides.map(slide => (
