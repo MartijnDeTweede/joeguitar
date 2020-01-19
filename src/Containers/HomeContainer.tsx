@@ -24,6 +24,10 @@ export const HomeContainer: React.FC = () => {
       title="Test"
       slides={testslides}
     />
+        <SliderComponent
+      title="Test"
+      slides={testslides}
+    />
   </div>
   )
 }

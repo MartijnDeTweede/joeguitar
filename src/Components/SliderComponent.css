@@ -1,14 +1,16 @@
 .sliderComponent {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 10px 0;
+  padding: 20px 300px;
 }
 
 .sliderComponent__title {
-  justify-content: center;
+  text-align: justify;
   display: block;
   color: #3c4044;
   font-weight: 700;
   font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+}
+
+.slick-prev:before, .slick-next:before  {
+  color: #3c4044 !important; 
 }
