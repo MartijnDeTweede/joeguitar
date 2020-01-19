@@ -1,0 +1,14 @@
+.sliderComponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.sliderComponent__title {
+  justify-content: center;
+  display: block;
+  color: #3c4044;
+  font-weight: 700;
+  font-size: calc(10px + 2vmin);
+}
