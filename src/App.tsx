@@ -16,7 +16,7 @@ const App: React.FC = () => {
       <Router>
         <header className="App-header">
           <Link className="App-link" to="/">Home</Link>
-          <Link  className="App-link" to="/faq">FAQ</Link>
+          {/* <Link  className="App-link" to="/faq">FAQ</Link> */}
         </header>
       <Switch>
           <Route path="/faq">
