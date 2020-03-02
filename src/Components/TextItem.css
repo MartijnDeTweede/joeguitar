@@ -15,6 +15,11 @@
   font-size: calc(10px + 2vmin);
 }
 
+.textItem__link{
+  color: #3c4044;
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .textItem__text {
     max-width: 30vw;

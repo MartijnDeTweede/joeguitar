@@ -5,7 +5,7 @@ import YouTube from 'react-youtube';
 export const VideoItem: React.FC<{videoId: string}> = ({videoId}) => {
   const opts = {
     height: '240',
-    width: '320',
+    width: '426',
   };
 
   return(
