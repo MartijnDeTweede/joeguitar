@@ -1,4 +1,11 @@
 .imageItem__image {
-  max-width: 426px;
-  max-height: 240px;
+  width: 30vw;
+
+}
+
+@media screen and (min-width: 1025px) {
+  .imageItem__image {
+    max-width: auto;
+  
+  }
 }

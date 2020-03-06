@@ -2,8 +2,8 @@ import React from 'react';
 import { Textmedia } from '../Components/Textmedia';
 import { TextItem } from '../Components/TextItem';
 import { VideoItem } from '../Components/VideoItem';
-// import { SliderComponent } from '../Components/SliderComponent';
-// import { testslides } from '../Content/TestSlides';
+import { SliderComponent } from '../Components/SliderComponent';
+import { testslides } from '../Content/TestSlides';
 import ourFirstLesson from '../Content/ourFirstLesson.jpeg';
 import { ImageItem } from '../Components/ImageItem';
 
@@ -34,14 +34,10 @@ export const HomeContainer: React.FC = () => {
     />
 
 
-    {/* <SliderComponent
+    <SliderComponent
       title="Jazz"
       slides={testslides}
     />
-        <SliderComponent
-      title="Cool tricks"
-      slides={testslides}
-    /> */}
   </div>
   )
 }

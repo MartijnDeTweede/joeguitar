@@ -12,29 +12,35 @@
 @media screen and (min-width: 768px) {
   .textMedia {
     margin: 50px 0;
+    min-width: 40vw;
   }
   
   .textItem {
-    margin: 0 20px;
+    margin: 0 5vw  0 5vw;
+    min-width: 40vw;
   }
 
   .mediaItem {
     display: block;
-    margin: 0 20px; 
+    margin: 0 5vw  0 5vw;
+    min-width: 40vw; 
   }
 }
 
 @media screen and (min-width: 1025px) {
   .textMedia {
     margin-top: 50px;
+    min-width: 40vw;
   }
   
   .textItem {
-    margin: 0 50px 0 0px;
+    margin: 0 5vw 0 5vw;
+    width: 40vw;
   }
 
   .mediaItem {
     display: block;
-    margin: 0 100px 0 0px;
+    margin: 0 5vw  0 5vw;
+    min-width: 40vw;
   }
 }
