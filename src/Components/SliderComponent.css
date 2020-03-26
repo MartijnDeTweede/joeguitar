@@ -11,6 +11,12 @@
   margin-bottom: 20px;
 }
 
+
+.sliderComponent__image {
+  width: 400px;
+  height: 200px;
+}
+
 .slick-prev:before, .slick-next:before  {
   color: #3c4044 !important; 
 }

@@ -68,7 +68,7 @@ export const SliderComponent: React.FC<{
     >
       {
         slides.map(slide => (
-          <div className="sliderComponent__Slide" onClick={() => slide.onclick()}><img src={slide.imagesource} alt={slide.alt}/> </div>
+          <div onClick={() => slide.onclick()}><img className="sliderComponent__image" src={slide.imagesource} alt={slide.alt}/> </div>
         ))
       }
     </Slider>

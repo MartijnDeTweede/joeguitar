@@ -1,30 +1,23 @@
 import { Slide } from "../Types/Slide";
+import aNewNote from './ANewNote.png';
 
+import firstNote from './FirstNote.png';
+import gAndA from './GandA.png';
 
 export const testslides: Slide [] = [
   {
-    imagesource: "http://placekitten.com/g/400/200",
-    alt: "test",
-    onclick: () => window.location.assign('www.jeroenvanbommel.nl'),
+    imagesource: firstNote,
+    alt: "my first note",
+    onclick: () => window.location.assign('https://www.patreon.com/posts/34657647'),
   },
   {
-    imagesource: "http://placekitten.com/g/400/200",
-    alt: "test",
-    onclick: () => window.location.assign('www.jeroenvanbommel.nl'),
+    imagesource: aNewNote,
+    alt: "a new note",
+    onclick: () => window.location.assign('https://www.patreon.com/posts/34952518'),
   },
   {
-    imagesource: "http://placekitten.com/g/400/200",
-    alt: "test",
-    onclick: () => window.location.assign('www.jeroenvanbommel.nl'),
-  },
-  {
-    imagesource: "http://placekitten.com/g/400/200",
-    alt: "test",
-    onclick: () => window.location.assign('www.jeroenvanbommel.nl'),
-  },
-  {
-    imagesource: "http://placekitten.com/g/400/200",
-    alt: "test",
-    onclick: () => window.location.assign('www.jeroenvanbommel.nl'),
+    imagesource: gAndA,
+    alt: "G and A together they play",
+    onclick: () => window.location.assign('https://www.patreon.com/posts/34526007'),
   },
 ]
